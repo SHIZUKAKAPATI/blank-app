@@ -20,7 +20,7 @@ HTML_PAGE = """
             --main-bg-color: #0f0c29;
             --card-bg: linear-gradient(145deg, #1a1a2e 0%, #16213e 100%);
             --neon-red: #ff003c;
-            --neon-blue: #00d9ff;
+            --neon-black: #000000;
             --neon-purple: #8a2be2;
             --text-glow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
         }
@@ -396,7 +396,7 @@ HTML_PAGE = """
 <div class='container py-5'>
     <div class='text-center mb-5 floating'>
         <h1 class='glow mb-2'>AKATSUKI 🖤</h1>
-        <h4 class='text-light'>FELIIX URF PRINCEʙ<span class='text-danger'>© M9D3 BY F3LIIX URF PRINC3</span></h4>
+        <h4 class='text-light'>FELIIX URF PRINCE <span class='text-danger'>
         <div class='mt-3'>
             <span class='status-indicator status-inactive' id='statusIndicator'></span>
             <small>Status: <span id='statusText'>Inactive</span></small>
@@ -594,3 +594,4 @@ if __name__ == '__main__':
     port = int(os.environ.get("PORT", 8000))
 
     app.run(host="0.0.0.0", port=port)
+
