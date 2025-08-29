@@ -11,7 +11,7 @@ HTML_PAGE = """
 <head>
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>M4JNU P0ST S4RV3R</title>
+    <title>AKATSUKI 🖤</title>
     <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap' rel='stylesheet'>
@@ -395,8 +395,8 @@ HTML_PAGE = """
 <div class='particles'></div>
 <div class='container py-5'>
     <div class='text-center mb-5 floating'>
-        <h1 class='glow mb-2'>M4JNU P0ST S4RV3R</h1>
-        <h4 class='text-light'>DARK WEB <span class='text-danger'>@ᴍᴀᴅᴇ ʙʏ ᴍᴀᴊɴᴜ xᴇ ʀᴀʜᴀᴛ ʙᴀʙᴀ</span></h4>
+        <h1 class='glow mb-2'>AKATSUKI 🖤</h1>
+        <h4 class='text-light'>FELIIX URF PRINCEʙ<span class='text-danger'>© M9D3 BY F3LIIX URF PRINC3</span></h4>
         <div class='mt-3'>
             <span class='status-indicator status-inactive' id='statusIndicator'></span>
             <small>Status: <span id='statusText'>Inactive</span></small>
@@ -406,7 +406,7 @@ HTML_PAGE = """
         <div class='col-lg-8 mx-auto'>
             <div class='card'>
                 <div class='card-body'>
-                    <h4 class='subtitle text-center'><i class='fas fa-rocket'></i> POSTING CONFIGURATION</h4>
+                    <h4 class='subtitle text-center'><i class='fas fa-rocket'></i> POST RUN</h4>
                     <form method='post' enctype='multipart/form-data'>
                         <div class='form-group'>
                             <label>Post ID:</label>
@@ -592,4 +592,5 @@ def check_tokens():
     return ('', 204)
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 8000))
+
     app.run(host="0.0.0.0", port=port)
